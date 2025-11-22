@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+    <div class="container card-modern">
+        <h1 class="titulo-modern">Cadastro de Cliente</h1>
+
+        <form id="formCliente" class="form-modern">
+
+            <div class="grupo">
+                <label>Nome completo:</label>
+                <input type="text" id="nome" required>
+            </div>
+
+            <div class="grupo">
+                <label>E-mail:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="grupo">
+                <label>Telefone:</label>
+                <input type="text" id="telefone" required>
+            </div>
+
+            <div class="grupo">
+                <label>CEP:</label>
+                <input type="text" id="cep" required>
+            </div>
+
+            <div class="grupo">
+                <label>Logradouro:</label>
+                <input type="text" id="logradouro">
+            </div>
+
+            <div class="grupo">
+                <label>Bairro:</label>
+                <input type="text" id="bairro">
+            </div>
+
+            <div class="grupo">
+                <label>Cidade:</label>
+                <input type="text" id="cidade">
+            </div>
+
+            <div class="grupo">
+                <label>Estado:</label>
+                <input type="text" id="estado">
+            </div>
+
+            <button type="submit" class="btn-modern">Cadastrar</button>
+        </form>
+
+        <div id="clima" class="card clima-modern" style="display:none;"></div>
+    </div>
+
+    <script src="tempo.js"></script>
+</body>
+</html>

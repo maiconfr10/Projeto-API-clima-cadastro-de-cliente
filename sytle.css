@@ -1,0 +1,126 @@
+/* ===== Fundo com imagem ===== */
+body {
+    background: url("raios.gif") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding: 40px;
+}
+
+/* ===== Card Central =====*/
+.card-modern {
+    background: 
+        linear-gradient(rgba(255,255,255,0.22), rgba(255,255,255,0.22)), 
+        url("Tempestade.jfif") no-repeat center center;
+    background-size: cover;
+
+    padding: 30px;
+    border-radius: 18px;
+    max-width: 520px;
+    margin: auto;
+
+    box-shadow:
+        0 0 10px rgba(0, 150, 255, 0.9),
+        0 0 20px rgba(0, 150, 255, 0.7),
+        0 0 40px rgba(0, 150, 255, 0.5),
+        0 0 60px rgba(0, 150, 255, 0.3);
+
+    transition: 0.3s ease;
+}
+
+.card-modern:hover {
+    box-shadow:
+        0 0 15px rgba(0, 200, 255, 1),
+        0 0 30px rgba(0, 200, 255, 0.9),
+        0 0 45px rgba(0, 200, 255, 0.7),
+        0 0 70px rgba(0, 200, 255, 0.6);
+}
+
+/* ===== Título ===== */
+.titulo-modern {
+    text-align: center;
+    font-size: 26px;
+    color: #00aaff; 
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 0 0 7px rgba(0,170,255,0.95);
+}
+
+/* ===== Form ===== */
+.form-modern .grupo {
+    margin-bottom: 15px;
+}
+
+.form-modern label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #00b7ff; /* azul neon */
+    text-shadow: 0 0 6px rgba(0,180,255,0.9);
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-modern input {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ced6e0;
+    border-radius: 10px;
+    font-size: 15px;
+    background: rgba(255,255,255,0.85); 
+    transition: border 0.2s, box-shadow 0.2s;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-modern input:focus {
+    outline: none;
+    border: 1px solid #00c3ff;
+    box-shadow: 0 0 10px rgba(0,200,255,0.9);
+}
+
+/* ===== Botão  ===== */
+.btn-modern {
+    width: 80%;
+    padding: 14px;
+    background: linear-gradient(135deg, #b67dff, #c89bff);
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin: 20px auto 0 auto;
+    display: block;
+    box-shadow: 0 0 12px rgba(190, 90, 255, 0.8);
+}
+
+.btn-modern:hover {
+    background: linear-gradient(135deg, #a96cff, #c085ff);
+    box-shadow: 0 0 18px rgba(210, 120, 255, 1);
+}
+
+/* ===== Card de Clima ===== */
+.clima-modern {
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 15px;
+    background: rgba(247,247,247,0.85);
+    box-shadow: 0 0 12px rgba(0,150,255,0.4);
+    text-align: center;
+}
+
+.clima-modern h2 {
+    font-size: 22px;
+    color: #00aaff; /* azul neon */
+    text-shadow: 0 0 7px rgba(0,170,255,0.9);
+}
+
+.temp {
+    font-size: 32px;
+    font-weight: bold;
+    color: #00c3ff;
+    text-shadow: 0 0 10px rgba(0,200,255,1);
+}
